@@ -6,7 +6,7 @@ This is a decentralized voting application built on the **Algorand blockchain** 
 
 ## Features
 - **Smart contract-based voting**: Ensures security and immutability.
-- **Wallet connection**: Supports Pera Wallet.
+- **Wallet connection**: Supports Pera Algo Wallet.
 - **User-friendly UI**: Built with React and TypeScript.
 - **Real-time updates**: Fetches live voting status from the blockchain.
 
