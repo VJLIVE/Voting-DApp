@@ -121,4 +121,4 @@ This project is licensed under the **MIT License**.
 ---
 
 ## Contact
-For questions, open an issue or reach out via [vijayguttula001@gmail.com](mailto:vijayguttula001@gmail.com).
+For questions, open an issue or reach out via Email: [vijayguttula001@gmail.com](mailto:vijayguttula001@gmail.com).
