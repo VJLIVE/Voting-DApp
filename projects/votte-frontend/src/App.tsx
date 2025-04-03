@@ -85,7 +85,7 @@ const App = () => {
     if (!activeAccount) throw new Error("Please connect wallet first");
     if (!votingState.title) throw new Error("Title is required");
     if (!votingState.description) throw new Error("Description is required");
-    if (votingState.noOfOptions < 2 || votingState.noOfOptions > 4) throw new Error("Number of options must be between 2 and 4");
+    if (votingState.noOfOptions < 2) throw new Error("Minimum Number of options should be 2");
 
     // Validate required options based on noOfOptions
     for (let i = 0; i < votingState.noOfOptions; i++) {
@@ -248,7 +248,7 @@ const App = () => {
         />
       </div>
       <div className="input_div">
-        <label>No. of Options (2-4)</label>
+        <label>No. of Options (Min 2)</label>
         <input
           type="number"
           min={2}
@@ -410,6 +410,7 @@ const App = () => {
             </button>
           </div>
         </div>
+
       </section>
 
       {/* Main Content */}

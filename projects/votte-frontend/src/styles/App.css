@@ -36,17 +36,19 @@ body {
 
 .sticky_nav {
   background-color: #003a8c;
-  padding: 10px 20px;
-  border-radius: 6px;
-  width: 90%;
-  margin: auto;
+  padding: 20px 30px;
+  width: 100%;
+  /* Set to 100% to span the entire width of the page */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  /* Optional: If you want the navbar to stick at the top when scrolling */
+  top: 0;
+  /* Optional: Ensures it stays at the top */
 }
 
 .cmpny_name {
   font-size: 24px;
   font-weight: bold;
-  /* text-transform: uppercase; */
   text-decoration: none;
   color: #ffffff;
 }
@@ -57,8 +59,8 @@ body {
   gap: 34px;
 }
 
-.first_wrap > input,
-.first_wrap > select {
+.first_wrap>input,
+.first_wrap>select {
   background-color: transparent;
   color: #003a8c;
   border: 2px solid #003a8c;
@@ -256,8 +258,8 @@ input::-webkit-inner-spin-button {
     padding-top: 0rem !important;
   }
 
-  .first_wrap > input,
-  .first_wrap > select {
+  .first_wrap>input,
+  .first_wrap>select {
     width: 80%;
   }
 
