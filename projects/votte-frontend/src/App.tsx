@@ -385,7 +385,7 @@ const App = () => {
       {/* Header Section */}
       <section className="header_section">
         <div className="sticky_nav">
-          <a className="cmpny_name">Voting Dapp</a>
+          <a className="cmpny_name">Secure Vote</a>
         </div>
         <div className="header_wrapper">
           <div className="first_wrap">
